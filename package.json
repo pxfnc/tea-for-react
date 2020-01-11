@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "parcel index.html -d docs",
-    "build": "parcel build index.html -d docs"
+    "build": "parcel build index.html -d docs --public-url ./"
   },
   "devDependencies": {
     "@types/react": "^16.9.17",
